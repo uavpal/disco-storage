@@ -20,7 +20,7 @@ Once installed, the mod is active in the background and works implicitly: If the
 ## Requirements
 - [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1
 - USB thumb-drive (USB 2.0 or USB 3.0), formatted as FAT32
-- USB OTG cable (Micro USB 2.0 Male to USB 2.0 Female, ca. 10 cm, angle cable recommended - order "direction up")
+- USB OTG cable (Micro USB 2.0 Male to USB 2.0 Female, ca. 10 cm, [angle cable](https://www.aliexpress.com/wholesale?SearchText=USB+OTG+angle) recommended - order "direction up")
 
 ## Software/Installation Steps
 You need a PC for the initial setup (to load the scripts to the Disco via a Wi-Fi connection). These instructions should work on the latest OS versions of Windows, macOS and GNU/Linux.
