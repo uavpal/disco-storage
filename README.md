@@ -43,7 +43,7 @@ You need a PC for the initial setup (to load the scripts to the Disco via a Wi-F
 Also check out our amazing [4G/LTE softmod](https://uavpal.com/disco) if you are interested in flying your Parrot Disco without any range limitation!
 
 ## Note
-- This mod is not required for pilots who have the [4G/LTE softmod](https://uavpal.com/disco) installed, as it already comes with the external storage capability builti-in.
+- This mod is not required for pilots who have the [4G/LTE softmod](https://uavpal.com/disco) installed, as it already comes with the external storage capability built-in (v1.3 and higher).
 - To uninstall, follow the installation steps above, but run `/data/ftp/internal_000/storage-*/storage_uninstall.sh` as the last step instead.
 
 ## Community
