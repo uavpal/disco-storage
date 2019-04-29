@@ -34,7 +34,7 @@ You need a PC for the initial setup (to load the scripts to the Disco via a Wi-F
    - You have to set the transfer type to Binary (not ASCII). In FileZilla under Edit &rarr; Settings... &rarr; Transfers &rarr; FTP: File Types &rarr; Default transfer type &rarr; change from Auto to Binary.
    - Transfer the "storagemod-x.y" folder to the "/internal_000" folder on the Disco.
 - On Disco firmware 1.7.0 and newer: Double press the Disco's power button to enable the telnet server.
-- Open a Command Prompt (Windows)/Terminal (macOS/Linux) and Copy/Paste the following commands manually to install the campan mod.
+- Open a Command Prompt (Windows)/Terminal (macOS/Linux) and Copy/Paste the following commands manually to install the Storage Mod.
    - `telnet 192.168.42.1` (If you get an error under Windows, make sure the [Telnet Client is installed](https://www.technipages.com/windows-10-enable-telnet))
    - `chmod +x /data/ftp/internal_000/storage-*/storage_*.sh`
    - `/data/ftp/internal_000/storage-*/storage_install.sh`
@@ -49,5 +49,5 @@ Also check out our amazing [4G/LTE softmod](https://uavpal.com/disco) if you are
 ## Community
 [![UAVPAL Slack Workspace](https://uavpal.com/img/slack.png)](https://uavpal.com/slack)
 
-Instructions too technical? Having trouble installing the campan mod? Questions about our 4G/LTE softmod? Want to meet the developers? Interested in other mods (batteries, LEDs, etc.)? Interested to meet like-minded people? Having a great idea and want to let us know?\
+Instructions too technical? Having trouble installing the Storage Mod? Questions about our 4G/LTE softmod? Want to meet the developers? Interested in other mods (batteries, LEDs, etc.)? Interested to meet like-minded people? Having a great idea and want to let us know?\
 We have a great and very active community on Slack, come [join us](https://uavpal.com/slack)!
