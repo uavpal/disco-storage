@@ -44,7 +44,7 @@ Also check out our amazing [4G/LTE softmod](https://uavpal.com/disco) if you are
 
 ## Note
 - This mod is not required for pilots who have the [4G/LTE softmod](https://uavpal.com/disco) installed, as it already comes with the external storage capability built-in (v1.3 and higher).
-- To uninstall, follow the installation steps above, but run `/data/ftp/internal_000/storage-*/storage_uninstall.sh` as the last step instead.
+- To uninstall, follow the installation steps above, but run `/data/ftp/internal_000/disco-storage-*/disco/storage_uninstall.sh` as the last step instead.
 
 ## Community
 [![UAVPAL Slack Workspace](https://uavpal.com/img/slack.png)](https://uavpal.com/slack)
