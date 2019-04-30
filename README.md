@@ -25,8 +25,8 @@ Once installed, the mod is active in the background and works implicitly: If the
 ## Software/Installation Steps
 You need a PC for the initial setup (to load the scripts to the Disco via a Wi-Fi connection). These instructions should work on the latest OS versions of Windows, macOS and GNU/Linux.
 
-- [Download .zip archive](#) of the latest Storage Mod **(not yet online!)**
-- Unzip contents (the extraction process automatically creates a new folder "disco-storage-x.y", where by x.y is the release version number)
+- [Download .zip archive](https://github.com/uavpal/disco-storage/archive/master.zip) of the latest Disco Storage Mod.
+- Unzip contents (the extraction process automatically creates a new folder "disco-storage-x.y", where by x.y is the release version number).
 - Turn on your Disco.
 - Connect your PC's Wi-Fi to the Disco (e.g. DISCO-123456).
 - Use an FTP tool (e.g. [FileZilla](https://filezilla-project.org/download.php?type=client)) to upload the mod to your Disco.
