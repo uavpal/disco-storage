@@ -1,0 +1,2 @@
+ACTION=="add", KERNEL=="*sd[a-z][1-4]*", SUBSYSTEM=="block", RUN+="/data/ftp/uavpal/bin/uavpal_storage.sh add '%E{DEVNAME}'"
+ACTION=="remove", KERNEL=="*sd[a-z][1-4]*", SUBSYSTEM=="block", RUN+="/usr/bin/flock -n /tmp/lock/uavpal_storage_remove /data/ftp/uavpal/bin/uavpal_storage.sh remove '%E{DEVNAME}'"
