@@ -26,18 +26,18 @@ Once installed, the mod is active in the background and works implicitly: If the
 You need a PC for the initial setup (to load the scripts to the Disco via a Wi-Fi connection). These instructions should work on the latest OS versions of Windows, macOS and GNU/Linux.
 
 - [Download .zip archive](#) of the latest Storage Mod **(not yet online!)**
-- Unzip contents (the extraction process automatically creates a new folder "storagemod-x.y", where by x.y is the release version number)
+- Unzip contents (the extraction process automatically creates a new folder "disco-storage-x.y", where by x.y is the release version number)
 - Turn on your Disco.
 - Connect your PC's Wi-Fi to the Disco (e.g. DISCO-123456).
 - Use an FTP tool (e.g. [FileZilla](https://filezilla-project.org/download.php?type=client)) to upload the mod to your Disco.
    - Connect via FTP to 192.168.42.1 (no username/password required)
    - You have to set the transfer type to Binary (not ASCII). In FileZilla under Edit &rarr; Settings... &rarr; Transfers &rarr; FTP: File Types &rarr; Default transfer type &rarr; change from Auto to Binary.
-   - Transfer the "storagemod-x.y" folder to the "/internal_000" folder on the Disco.
+   - Transfer the "disco-storage-x.y" folder to the "/internal_000" folder on the Disco.
 - On Disco firmware 1.7.0 and newer: Double press the Disco's power button to enable the telnet server.
 - Open a Command Prompt (Windows)/Terminal (macOS/Linux) and Copy/Paste the following commands manually to install the Storage Mod.
    - `telnet 192.168.42.1` (If you get an error under Windows, make sure the [Telnet Client is installed](https://www.technipages.com/windows-10-enable-telnet))
-   - `chmod +x /data/ftp/internal_000/storage-*/storage_*.sh`
-   - `/data/ftp/internal_000/storage-*/storage_install.sh`
+   - `chmod +x /data/ftp/internal_000/disco-storage-*/disco/storage_*.sh`
+   - `/data/ftp/internal_000/disco-storage-*/disco/storage_install.sh`
 - That's all! :ghost: You don't need to restart the Disco, the mod is fully functional now.
 
 Also check out our amazing [4G/LTE softmod](https://uavpal.com/disco) if you are interested in flying your Parrot Disco without any range limitation!
