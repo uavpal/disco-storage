@@ -21,7 +21,7 @@ if [ "$1" == "add" ]; then
 	ulogger -s -t uavpal_storage "... photos and videos will now be stored on the USB mass storage device (capacity: $(echo $diskfree | awk '{print $2}') / available: $(echo $diskfree | awk '{print $4}'))"
 elif [ "$1" == "remove" ]; then
 	ulogger -s -t uavpal_storage "... disk ${disk} has been removed"
-	umount -f /dev/${media_path}
+	umount -f ${media_path}
 	diskfree=$(df -h | grep internal_000)
 	ulogger -s -t uavpal_storage "... photos and videos will now be stored on the drone's internal memory (capacity: $(echo $diskfree | awk '{print $2}') / available: $(echo $diskfree | awk '{print $4}'))"
 	mkdir ${media_path}
