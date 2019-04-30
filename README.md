@@ -2,7 +2,7 @@
 # Parrot Disco Storage Mod
 
 ## Introduction
-The Parrot Disco comes with internal storage of 32 GB, which allows video recording of about 3 hours.
+The Parrot Disco comes with internal storage of 32 GB, which allows video recording (in 1080p) of less than 2.5 hours.
 This modification enables video/photo recording to a USB thumb-drive attached to the Disco's CHUCK.
 
 ![Disco Storage Mod](https://uavpal.com/img/storagemod-560px.jpg)
