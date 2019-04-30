@@ -14,8 +14,10 @@ This modification enables video/photo recording to a USB thumb-drive attached to
 - The thumb-drive can be unplugged after the flight and plugged into a PC - the pilot can watch the video immediately without having to transfer anything first.
 
 ## How does it work
-Plug the USB OTG cable into the right Micro USB port on CHUCK and plug  the USB thumb-drive into the female port of the USB OTG cable (see photo above).\
-Once installed, the mod is active in the background and works implicitly: If there is external USB storage plugged into CHUCK, it will record to it. If no external storage is plugged in or gets unplugged, it will record to the internal storage.
+- Once installed, the mod is active in the background and works as follows.
+- Plug the USB OTG cable into the right Micro USB port on CHUCK and plug the USB thumb-drive into the female port of the USB OTG cable (see photo above).
+- Whenever an external USB thumb-drive is plugged in, the Disco's power button LED will change its color from orange &rarr; green &rarr; cyan &rarr; blue &rarr; magenta quickly to indicate that photos and videos will now be recorded to the USB thumb-drive.
+- Whenever an external USB thumb-drive gets unplugged (or the Disco could not detect/mount the file system), the Disco's power button LED will flash red three times. This indicates that all photos and videos will be recorded to the internal storage.
 
 ## Requirements
 - [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1
