@@ -5,7 +5,7 @@ if [ "$(grep 'ro.parrot.build.product' /etc/build.prop | cut -d'=' -f 2)" != "ev
 	exit 1
 fi
 echo "Copying softmod files to target directory"
-cp -fr /tmp/disco-storage/disco/uavpal /data/ftp
+cp -fr /data/ftp/internal_000/disco-storage-*/disco/uavpal /data/ftp
 echo "Making binaries and scripts executable"
 chmod +x /data/ftp/uavpal/bin/*
 echo "Remounting filesystem as read/write"
@@ -15,7 +15,7 @@ ln -s /data/ftp/uavpal/conf/65-uavpal-disco-storage.rules /lib/udev/rules.d/65-u
 echo "Remounting filesystem as read-only"
 mount -o remount,ro /
 echo "Removing UAVPAL Storage Mod installation files"
-rm -rf /data/ftp/disco-storage*
+rm -rf /data/ftp/internal_000/disco-storage*
 echo "Reloading udev rules"
 udevadm control --reload-rules
 udevadm trigger

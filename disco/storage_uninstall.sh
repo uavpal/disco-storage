@@ -10,6 +10,9 @@ echo "Removing UAVPAL Storage Mod files"
 rm -rf /data/ftp/uavpal/bin/uavpal_storage.sh
 rm -rf /data/ftp/uavpal/conf/65-uavpal-disco-storage.rules
 echo "Removing UAVPAL Storage Mod installation files"
-rm -rf /data/ftp/disco-storage*
+rm -rf /data/ftp/internal_000/disco-storage*
+echo "Reloading udev rules"
+udevadm control --reload-rules
+udevadm trigger
 echo "All done! :)"
 echo
