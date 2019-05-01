@@ -27,7 +27,7 @@ This modification enables video/photo recording to a USB thumb-drive attached to
 ## Software/Installation Steps
 You need a PC for the initial setup (to load the scripts to the Disco via a Wi-Fi connection). These instructions should work on the latest OS versions of Windows, macOS and GNU/Linux.
 
-- [Download .zip archive](https://github.com/uavpal/disco-storage/archive/master.zip) of the latest Disco Storage Mod.
+- [Download .zip archive](https://uavpal.com/download-latest-disco-storage) of the latest Disco Storage Mod.
 - Unzip contents (the extraction process automatically creates a new folder "disco-storage-master" or "disco-storage-x.y", where by x.y is the release version number).
 - Turn on your Disco.
 - Connect your PC's Wi-Fi to the Disco (e.g. DISCO-123456).
