@@ -16,8 +16,8 @@ This modification enables video/photo recording to a USB thumb-drive attached to
 ## How does it work
 - Once installed, the mod is active in the background and works as follows.
 - Plug the USB OTG cable into the right Micro USB port on CHUCK and plug the USB thumb-drive into the female port of the USB OTG cable (see photo above).
-- Whenever an external USB thumb-drive is plugged in, the Disco's power button LED will change its color from orange &rarr; green &rarr; cyan &rarr; blue &rarr; magenta quickly to indicate that photos and videos will now be recorded to the USB thumb-drive.
-- Whenever an external USB thumb-drive gets unplugged (or the Disco could not detect/mount the file system), the Disco's power button LED will flash red three times. This indicates that all photos and videos will be recorded to the internal storage.
+- Whenever an external USB thumb-drive is plugged in, the Disco's power button LED will change its color from orange &rarr; green &rarr; cyan &rarr; blue &rarr; magenta quickly to indicate that videos and photos will now be recorded to the USB thumb-drive.
+- Whenever an external USB thumb-drive gets unplugged (or the Disco could not detect/mount the file system), the Disco's power button LED will flash red three times. This indicates that all videos and photos will be recorded to the internal storage.
 
 ## Requirements
 - [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1
