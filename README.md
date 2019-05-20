@@ -21,7 +21,8 @@ This modification enables video/photo recording to a USB thumb-drive attached to
 
 ## Requirements
 - [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1
-- USB thumb-drive (USB 2.0 or USB 3.0), formatted as FAT32
+- USB thumb-drive (USB 2.0 or USB 3.0), formatted as FAT32\
+:point_right: Windows users need the tool [guiformat.exe](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format drives bigger than 32 GB in FAT32.
 - USB OTG cable (Micro USB 2.0 Male to USB 2.0 Female, ca. 10 cm, [angle cable](https://www.aliexpress.com/wholesale?SearchText=USB+OTG+angle) recommended - order "direction up")
 
 ## Software/Installation Steps
