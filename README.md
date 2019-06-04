@@ -38,7 +38,7 @@ You need a PC for the initial setup (to load the scripts to the Disco via a Wi-F
    - Transfer the "disco-storage-master" or "disco-storage-x.y" folder to the "/internal_000" folder on the Disco.
 - On Disco firmware 1.7.0 and newer: Double press the Disco's power button to enable the telnet server.
 - Open a Command Prompt (Windows)/Terminal (macOS/Linux) and Copy/Paste the following commands manually to install the Storage Mod.
-   - `telnet 192.168.42.1` (If you are getting “command not found” or “... is not recognized as an internal or external command”, please check [this FAQ article](https://uavpal.com/disco/faq#telnet) first)
+   - `telnet 192.168.42.1` (If you are getting "command not found" or "... is not recognized as an internal or external command", please check [this FAQ article](https://uavpal.com/disco/faq#telnet) first)
    - `chmod +x /data/ftp/internal_000/disco-storage-*/disco/storage_*.sh`
    - `/data/ftp/internal_000/disco-storage-*/disco/storage_install.sh`
 - That's all! :ghost: You don't need to restart the Disco, the mod is fully functional now.
