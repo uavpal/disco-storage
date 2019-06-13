@@ -20,10 +20,18 @@ This modification enables video/photo recording to a USB thumb-drive attached to
 - Whenever an external USB thumb-drive gets unplugged (or the Disco could not detect/mount the file system), the Disco's power button LED will flash red three times. This indicates that all videos and photos will be recorded to the internal storage.
 
 ## Requirements
-- [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1
+- [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1 <details><summary>**Buy now!**</summary>
+   [Order fom Amazon ~US$850.00](https://amzn.to/2I7NTOM)
+</details>
+
 - USB thumb-drive (USB 2.0 or USB 3.0), formatted as FAT32\
 :point_right: Windows users need the tool [guiformat.exe](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format drives bigger than 32 GB in FAT32.
-- USB OTG cable (Micro USB 2.0 Male to USB 2.0 Female, ca. 10 cm, [angle cable](https://www.aliexpress.com/wholesale?SearchText=USB+OTG+angle) recommended - order "direction up")
+- USB OTG cable (Micro USB 2.0 Male to USB 2.0 Female, ca. 10 cm, angle cable) <details><summary>**Buy now!**</summary>
+   [Order from AliExpress ~US$2.00](http://s.click.aliexpress.com/e/caih4r5I) (choose "direction up")\
+   [Order fom Amazon ~US$14.00](https://amzn.to/2I4SSzC) (choose 10 cm)
+</details>
+
+![USB OTG Cable for Parrot Disco](https://uavpal.com/img/usbotg_cable_disco.jpg)
 
 ## Software/Installation Steps
 You need a PC for the initial setup (to load the scripts to the Disco via a Wi-Fi connection). These instructions should work on the latest OS versions of Windows, macOS and GNU/Linux.
