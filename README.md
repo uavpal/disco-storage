@@ -21,7 +21,7 @@ This modification enables video/photo recording to a USB thumb-drive attached to
 
 ## Requirements
 - [Parrot Disco](https://www.parrot.com/us/drones/parrot-disco) / [Parrot Disco-Pro AG](https://www.parrot.com/business-solutions-us/parrot-professional/parrot-disco-pro-ag) with firmware 1.7.0, 1.7.1 <details><summary>**Buy now!**</summary>
-   [Order fom Amazon ~US$850.00](https://amzn.to/2I7NTOM)
+   [Order fom Amazon ~US$850.00](https://amzn.to/3JzeUHN)
 </details>
 
 - USB thumb-drive (USB 2.0 or USB 3.0), formatted as FAT32\
